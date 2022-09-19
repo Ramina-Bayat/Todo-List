@@ -1,0 +1,85 @@
+.App{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    margin: auto;
+
+}
+.App h1 {
+  margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+.todo {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem; 
+  margin: 10px ;
+}
+.completed{
+  text-decoration: line-through;
+  color:aqua;
+}
+input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 3px;
+  outline: none;
+}
+input:focus{
+  border: 1px solid blueviolet;
+
+}
+.formControl{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 20rem;
+  margin-bottom: 20px;
+}
+.btn{
+  color: blueviolet;
+  background-color: #fff;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+ margin-left: 10px;
+}
+.remove{
+  color:rgb(236,68,68);
+  border:1px solid rgb(236,68,68);
+  margin-left: 10px;
+}
+.add{
+  color: #fff;
+  background-color:blueviolet; 
+}
+.update{
+  background-color: rgb(143, 77, 204);
+  color: #fff;
+}
+.todoText{
+  cursor: pointer;
+ font-weight: bold;
+}
+.select{
+  width:170px;
+  margin-left:10px ;
+  margin-bottom: 10px;
+}
